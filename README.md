@@ -86,7 +86,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
        +---> [ Serviço de Inventário ]
 
 
-<img src="pros_contra_op1.png" alt="Prós e Contras da Opção 01"/>
+<img alt="pros_contra_op1.png" data-hpc="true" src="https://github.com/MaviaLima/miniguia-estudos-notebooklm/blob/main/pros_contra_op1.png?raw=true" style="max-width: 100%;">
 
 
 | **Prós** | **Contras** |
@@ -111,6 +111,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
 
 
 <img src="pros_contra_op2.png" alt="Prós e Contras da Opção 02"/>
+<img alt="pros_contra_op2.png" data-hpc="true" src="https://github.com/MaviaLima/miniguia-estudos-notebooklm/blob/main/pros_contra_op2.png?raw=true" style="max-width: 100%;">
 
 
 | **Prós** | **Contras** |
