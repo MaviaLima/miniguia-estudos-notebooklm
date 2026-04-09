@@ -85,7 +85,10 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
        |
        +---> [ Serviço de Inventário ]
 
-![Prós e Contras da Opção 01](/pros_contra_op1.png)
+
+<img src="pros_contra_op1.png" alt="Prós e Contras da Opção 01"/>
+
+
 | **Prós** | **Contras** |
 | --- | --- |
 | Simplicidade de fluxo | Gargalo de processamento |
@@ -106,7 +109,9 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
           |                                              |                                          |
 [ Provedor Externo ]                           [ Reserva Estoque ]                        [ Envia E-mail/SMS ]
 
-![Prós e Contras da Opção 02](/pros_contra_op2.png)
+
+<img src="pros_contra_op2.png" alt="Prós e Contras da Opção 02"/>
+
 
 | **Prós** | **Contras** |
 | --- | --- |
