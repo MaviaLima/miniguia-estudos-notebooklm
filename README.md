@@ -85,6 +85,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
        |
        +---> [ Serviço de Inventário ]
 
+![Prós e Contras da Opção 01](/pros_contra_op1.png)
 | **Prós** | **Contras** |
 | --- | --- |
 | Simplicidade de fluxo | Gargalo de processamento |
@@ -105,6 +106,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
           |                                              |                                          |
 [ Provedor Externo ]                           [ Reserva Estoque ]                        [ Envia E-mail/SMS ]
 
+![Prós e Contras da Opção 02](/pros_contra_op2.png)
 
 | **Prós** | **Contras** |
 | --- | --- |
@@ -131,6 +133,4 @@ Orquestração (Opção 1): indicada para sistemas em fase inicial ou com lógic
 Coreografia (Opção 2): indicada para sistemas de grande escala, com foco em resiliência e evolução contínua.
 
 
-Esse complemento deixa o **README.md** pronto para servir como guia prático, com modelo reutilizável para diferentes problemas e exemplos claros de aplicação.  
-
-Quer que eu monte também uma **seção de índice (Table of Contents)** no início do documento para facilitar a navegação entre objetivos, fontes, exemplos e soluções?
+```Esse complemento deixa o **README.md** pronto para servir como guia prático, com modelo reutilizável para diferentes problemas e exemplos claros de aplicação.  ```
