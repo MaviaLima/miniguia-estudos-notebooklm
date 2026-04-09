@@ -85,8 +85,10 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
        |
        +---> [ Serviço de Inventário ]
 
-
+```
 <img alt="pros_contra_op1.png" data-hpc="true" src="https://github.com/MaviaLima/miniguia-estudos-notebooklm/blob/main/pros_contra_op1.png?raw=true" style="max-width: 100%;">
+
+![Texto alternativo](pros_contra_op1.png)
 
 
 | **Prós** | **Contras** |
@@ -96,6 +98,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
 | Consistência forte | Acoplamento maior |
 
 #### 🔹 Opção 2: Padrão SAGA por Coreografia (Orientada a Eventos)
+```
 [ Cliente ]
     |
 [ API Gateway ] 
@@ -108,7 +111,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
 (Consome 'PedidoCriado')                       (Consome 'PedidoCriado')                   (Consome 'PagamentoSucesso')
           |                                              |                                          |
 [ Provedor Externo ]                           [ Reserva Estoque ]                        [ Envia E-mail/SMS ]
-
+```
 
 <img src="pros_contra_op2.png" alt="Prós e Contras da Opção 02"/>
 <img alt="pros_contra_op2.png" data-hpc="true" src="https://github.com/MaviaLima/miniguia-estudos-notebooklm/blob/main/pros_contra_op2.png?raw=true" style="max-width: 100%;">
@@ -134,9 +137,9 @@ Gerenciamento de API (Azure APIM / Amazon API Gateway): segurança e controle ce
 
 
 #### 📌 Recomendação Final
-Orquestração (Opção 1): indicada para sistemas em fase inicial ou com lógica de checkout complexa.
+**Orquestração (Opção 1):** indicada para sistemas em fase inicial ou com lógica de checkout complexa.
 
-Coreografia (Opção 2): indicada para sistemas de grande escala, com foco em resiliência e evolução contínua.
+**Coreografia (Opção 2):** indicada para sistemas de grande escala, com foco em resiliência e evolução contínua.
 
 
 ```Esse complemento deixa o **README.md** pronto para servir como guia prático, com modelo reutilizável para diferentes problemas e exemplos claros de aplicação.  ```
