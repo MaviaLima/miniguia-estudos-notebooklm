@@ -36,7 +36,7 @@ As fontes exploram o universo da engenharia de software com foco em:
 ---
 
 ## 📂 Curadoria de Fontes
-Foram adicionadas aproximadamente **24 fontes de dados**, incluindo:
+Foram adicionadas aproximadamente **26 fontes de dados**, incluindo:
 
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/pt-br/design-patterns)  
 - [Microsoft Learn - Azure Architecture Patterns](https://learn.microsoft.com/en-us/azure/architecture/patterns/)  
@@ -44,14 +44,22 @@ Foram adicionadas aproximadamente **24 fontes de dados**, incluindo:
 - [SoftDesign - Consultoria em Arquitetura de Software](https://www.softdesign.com.br/blog/desenvolvimento-ou-consultoria-em-arquitetura-de-software-como-escolher/)  
 - [AWS - Service-Oriented Architecture](https://aws.amazon.com/pt/what-is/service-oriented-architecture)  
 
+[Lista completa de fontes](docs/referencias.md)
 ---
 
 ## ✅ Entregáveis Esperados
+- Resumos estruturados do assunto;
+- Um glossário com os principais conceitos aprendidos;
+- Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema.
+
+## ✅ Entregáveis Adicionais
+- [Guia de estudo](docs/guia_estudos.md)
 - Guia de padrões arquiteturais e de software.
-- Comparação entre diferentes soluções arquitetônicas.
-- Exemplos de topologias aplicadas a problemas específicos.
-- Análise de prós e contras de cada padrão/arquitetura.
-- Sugestões de implementação com base em boas práticas.
+- [Exemplos de topologias aplicadas a problemas específicos.](docs/consulta_estruturada.md)
+-- Análise de prós e contras de cada padrão/arquitetura.
+-- Sugestões de implementação com base em boas práticas.
+
+
 
 
 ## ✅ Modelo de Estruturação de Problemas e Soluções
@@ -86,16 +94,9 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
        +---> [ Serviço de Inventário ]
 
 ```
-<img alt="pros_contra_op1.png" data-hpc="true" src="https://github.com/MaviaLima/miniguia-estudos-notebooklm/blob/main/pros_contra_op1.png?raw=true" style="max-width: 100%;">
 
-![Texto alternativo](pros_contra_op1.png)
+![Prós e Contras da Opção 01](docs/pros_contra_op1.png)
 
-
-| **Prós** | **Contras** |
-| --- | --- |
-| Simplicidade de fluxo | Gargalo de processamento |
-| Gestão de erros facilitada | Latência adicional |
-| Consistência forte | Acoplamento maior |
 
 #### 🔹 Opção 2: Padrão SAGA por Coreografia (Orientada a Eventos)
 ```
@@ -113,15 +114,7 @@ Dentro dessa abordagem, existem duas formas principais de gerenciar transações
 [ Provedor Externo ]                           [ Reserva Estoque ]                        [ Envia E-mail/SMS ]
 ```
 
-<img src="pros_contra_op2.png" alt="Prós e Contras da Opção 02"/>
-<img alt="pros_contra_op2.png" data-hpc="true" src="https://github.com/MaviaLima/miniguia-estudos-notebooklm/blob/main/pros_contra_op2.png?raw=true" style="max-width: 100%;">
-
-
-| **Prós** | **Contras** |
-| --- | --- |
-| Escalabilidade extrema | Complexidade de depuração |
-| Resiliência por isolamento | Consistência eventual |
-| Facilidade de evolução | Rollbacks complexos |
+<img src="docs/pros_contra_op2.png" alt="Prós e Contras da Opção 02"/>
 
 
 #### 🛠️ Ferramentas e Padrões Recomendados
@@ -137,9 +130,7 @@ Gerenciamento de API (Azure APIM / Amazon API Gateway): segurança e controle ce
 
 
 #### 📌 Recomendação Final
-**Orquestração (Opção 1):** indicada para sistemas em fase inicial ou com lógica de checkout complexa.
 
-**Coreografia (Opção 2):** indicada para sistemas de grande escala, com foco em resiliência e evolução contínua.
-
-
-```Esse complemento deixa o **README.md** pronto para servir como guia prático, com modelo reutilizável para diferentes problemas e exemplos claros de aplicação.  ```
+| **Orquestração (Opção 1):** | indicada para sistemas em fase inicial ou com lógica de checkout complexa. |
+|---|----|
+| **Coreografia (Opção 2):**  | indicada para sistemas de grande escala, com foco em resiliência e evolução contínua. |
