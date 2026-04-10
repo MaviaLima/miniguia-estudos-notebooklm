@@ -51,6 +51,7 @@ Foram adicionadas aproximadamente **26 fontes de dados**, incluindo:
 - [Resumos estruturados do assunto;](docs/infografico.png)
 - [Um glossário com os principais conceitos aprendidos;](docs/glossario_padroes_arquiteturas_design.md)
 - [Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema.](docs/modelos_prompts.md)
+- [📎Exemplo de Arquitetura de Checkout de Alta Performance](/docs/High_Performance_Checkout_Blueprint.pdf)
 
 ## ✅ Entregáveis Adicionais
 - [Guia de estudo](docs/guia_estudos.md)
