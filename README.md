@@ -49,15 +49,13 @@ Foram adicionadas aproximadamente **26 fontes de dados**, incluindo:
 
 ## ✅ Entregáveis Esperados
 - [Resumos estruturados do assunto;](docs/infografico.png)
-- [Um glossário com os principais conceitos aprendidos;](docs/glossario_de_padroes.xlsx)
+- [Um glossário com os principais conceitos aprendidos;](docs/glossario_padroes_arquiteturas_design.md)
 - [Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema.](docs/modelos_prompts.md)
 
 ## ✅ Entregáveis Adicionais
 - [Guia de estudo](docs/guia_estudos.md)
 - [Guia de padrões arquiteturais e de software.](docs/infografico.png)
-- [Exemplos de topologias aplicadas a problemas específicos.](docs/consulta_estruturada.md) Com: 
-| Análise de prós e contras de cada padrão/arquitetura.|
-| Sugestões de implementação com base em boas práticas.|
+- [Exemplos de topologias aplicadas a problemas específicos.](docs/consulta_estruturada.md) com: - Análise de prós e contras de cada padrão/arquitetura; e Sugestões de implementação com base em boas práticas.
 
 
 
