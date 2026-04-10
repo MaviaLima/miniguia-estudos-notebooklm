@@ -73,4 +73,5 @@ Gerenciamento de API (Azure APIM / Amazon API Gateway): segurança e controle ce
 
 
 
-- [** Sugestão de apresentação em Blueprint**] (docs/High_Performance_Checkout_Blueprint)
+- [** Sugestão de apresentação em Blueprint (ppt)**] (docs/High_Performance_Checkout_Blueprint.pptx)
+- [** Sugestão de apresentação em Blueprint (pdf)**] (High_Performance_Checkout_Blueprint.pdf)

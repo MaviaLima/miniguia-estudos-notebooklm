@@ -38,16 +38,16 @@ This study guide provides a detailed synthesis of software engineering design pa
 ## Part 2: Quiz Answer Key
 
 **Question	Core Concepts for Correct Answer**
-1	Initial appearance of effectiveness; bad consequences; existence of a proven alternative.
-2	Rule-of-three requirement; must be witnessed at least three times.
-3	Separation of commands and queries; independent optimization and scaling.
-4	Inheritance breaks encapsulation; composition provides black-box reuse and loose coupling.
-5	Centralized communication; transformation of requests; endpoint routing.
-6	Proxy running on the same machine/pod; decouples network and business logic.
-7	Gradual migration; coexistence of monolith and microservices; incremental value.
-8	Lack of perceivable architecture; caused by entropy and business pressure.
-9	Separation of core logic and environment; use of ports (interfaces) and adapters.
-10	Independent filters; sequential transformation; data flow through pipes.
+1.	Initial appearance of effectiveness; bad consequences; existence of a proven alternative.
+2.	Rule-of-three requirement; must be witnessed at least three times.
+3.	Separation of commands and queries; independent optimization and scaling.
+4.	Inheritance breaks encapsulation; composition provides black-box reuse and loose coupling.
+5.	Centralized communication; transformation of requests; endpoint routing.
+6.	Proxy running on the same machine/pod; decouples network and business logic.
+7.	Gradual migration; coexistence of monolith and microservices; incremental value.
+8.	Lack of perceivable architecture; caused by entropy and business pressure.
+9.	Separation of core logic and environment; use of ports (interfaces) and adapters.
+10.	Independent filters; sequential transformation; data flow through pipes.
 
 
 --------------------------------------------------------------------------------
@@ -70,22 +70,22 @@ The following questions are designed to test deep comprehension of the source ma
 ## Part 4: Glossary of Key Terms
 
 **Term	Definition**
-Anti-pattern	A commonly used solution to a problem that initially seems appropriate but is counterproductive and has a documented better alternative.
-API Gateway	A design pattern that creates a single entry point for all clients to handle requests and route them to appropriate microservices.
-Bulkhead	A fault-tolerance pattern where elements are isolated in containers so that the failure of one does not cause the others to fail.
-Command	In CQRS, an operation that represents a specific business task and updates the state of the data.
-Control Plane	The part of a service mesh that provides the interface for defining policies and managing the configuration of all proxies in the system.
-Data Plane	The network of proxies within a service mesh that handles the actual communication, authentication, and load balancing between services.
-Design Pattern	A reliable, repeatable, and effective solution to a common problem in software design, famously categorized into Creational, Structural, and Behavioral types.
-Event Sourcing	A pattern that stores the state of a system as a chronological series of events rather than just the current status.
-God Object	A software engineering anti-pattern where a single class handles an excessive amount of control or functionality in a program.
-Loose Coupling	A design goal where services have minimal dependencies on external resources or other services, enhancing maintainability and flexibility.
-Materialized View	A prepopulated, denormalized view of data optimized for efficient querying, often used as the read model in CQRS.
-Microservices	An architectural style where an application is built as a collection of small, independent services that communicate via lightweight APIs.
-Monolith	A traditional software architecture where all components and functionalities are implemented as a single, interdependent unit or process.
-Query	In CQRS, an operation that retrieves data without altering it, typically returning a Data Transfer Object (DTO).
-SAGA Pattern	A design pattern used in microservices to manage distributed transactions and maintain data consistency across multiple services.
-Stateless	A characteristic of a service where it does not retain information from previous sessions or transactions.
+- Anti-pattern	A commonly used solution to a problem that initially seems appropriate but is counterproductive and has a documented better alternative.
+- API Gateway	A design pattern that creates a single entry point for all clients to handle requests and route them to appropriate microservices.
+- Bulkhead	A fault-tolerance pattern where elements are isolated in containers so that the failure of one does not cause the others to fail.
+- Command	In CQRS, an operation that represents a specific business task and updates the state of the data.
+- Control Plane	The part of a service mesh that provides the interface for defining policies and managing the configuration of all proxies in the system.
+- Data Plane	The network of proxies within a service mesh that handles the actual communication, authentication, and load balancing between services.
+- Design Pattern	A reliable, repeatable, and effective solution to a common problem in software design, famously categorized into Creational, Structural, and Behavioral types.
+- Event Sourcing	A pattern that stores the state of a system as a chronological series of events rather than just the current status.
+- God Object	A software engineering anti-pattern where a single class handles an excessive amount of control or functionality in a program.
+- Loose Coupling	A design goal where services have minimal dependencies on external resources or other services, enhancing maintainability and flexibility.
+- Materialized View	A prepopulated, denormalized view of data optimized for efficient querying, often used as the read model in CQRS.
+- Microservices	An architectural style where an application is built as a collection of small, independent services that communicate via lightweight APIs.
+- Monolith	A traditional software architecture where all components and functionalities are implemented as a single, interdependent unit or process.
+- Query	In CQRS, an operation that retrieves data without altering it, typically returning a Data Transfer Object (DTO).
+- SAGA Pattern	A design pattern used in microservices to manage distributed transactions and maintain data consistency across multiple services.
+- Stateless	A characteristic of a service where it does not retain information from previous sessions or transactions.
 
 
 --------------------------------------------------------------------------------
