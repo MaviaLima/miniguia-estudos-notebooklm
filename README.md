@@ -1,5 +1,5 @@
 # miniguia-estudos-notebooklm
-Este projeto, visa aliar pensamento crítico, curadoria de fontes e organização do conhecimento para criar um Caderno Temático no NotebookLM.
+Este projeto, visa aliar pensamento crítico, curadoria de fontes e organização do conhecimento para criar um Caderno Temático no NotebookLM sobre *Architectural and Software Design Patterns Catalog*.
 
 # 📘 [📎Architectural and Software Design Patterns Catalog](https://notebooklm.google.com/notebook/ce606616-e13c-40d1-b619-1c5f5063bb90)
 
