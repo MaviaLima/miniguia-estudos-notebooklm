@@ -1,4 +1,18 @@
 
+**Como usar**
+1) Escolha um prompt e adapte ao seu contexto (dúvida, necessidade, case).
+2) Indique formato da resposta (lista, tabela, passos).
+3) Defina limites e critérios de qualidade (tom, tamanho, objetivo) para respostas mais precisas.
+ 
+**Estrutura recomendada**
+Persona (quem responde) • Tarefa (o que fazer) • Contexto (para quem/por quê) • Formato (como entregar). Ex.: “Atue como especilista desenvovedor Java com AWS. Reescreva o resumo em até 120 palavras, tom profissional, em bullets.”
+ 
+**Boas práticas**
+Seja específico e direto; evite múltiplas tarefas no mesmo prompt.
+Coloque instruções no início e separe o contexto com delimitadores como "aspas" quando necessário.
+Inclua critérios do tipo: objetivo, público, tom, tamanho, e o que evitar.
+ 
+Exemplos rápidos
 ## Prompts genéricos
 
 - O que são anti-patterns e como eles prejudicam o software?
