@@ -1,7 +1,7 @@
 # miniguia-estudos-notebooklm
 Este projeto, visa aliar pensamento crítico, curadoria de fontes e organização do conhecimento para criar um Caderno Temático no NotebookLM.
 
-# 📘 [Architectural and Software Design Patterns Catalog - *aqui*](https://notebooklm.google.com/notebook/ce606616-e13c-40d1-b619-1c5f5063bb90)
+# 📘 [📎Architectural and Software Design Patterns Catalog](https://notebooklm.google.com/notebook/ce606616-e13c-40d1-b619-1c5f5063bb90)
 
 ## 🎯 Objetivo
 Criar um guia de arquitetura de software que:
@@ -48,16 +48,16 @@ Foram adicionadas aproximadamente **26 fontes de dados**, incluindo:
 ---
 
 ## ✅ Entregáveis Esperados
-- Resumos estruturados do assunto;
+- [Resumos estruturados do assunto;](docs/infografico.png)
 - [Um glossário com os principais conceitos aprendidos;](docs/glossario_de_padroes.xlsx)
 - [Um conjunto de prompts reutilizáveis que possam apoiar futuras revisões sobre o tema.](docs/modelos_prompts.md)
 
 ## ✅ Entregáveis Adicionais
 - [Guia de estudo](docs/guia_estudos.md)
 - [Guia de padrões arquiteturais e de software.](docs/infografico.png)
-- [Exemplos de topologias aplicadas a problemas específicos.](docs/consulta_estruturada.md)
--- Análise de prós e contras de cada padrão/arquitetura.
--- Sugestões de implementação com base em boas práticas.
+- [Exemplos de topologias aplicadas a problemas específicos.](docs/consulta_estruturada.md) Com: 
+| Análise de prós e contras de cada padrão/arquitetura.|
+| Sugestões de implementação com base em boas práticas.|
 
 
 
